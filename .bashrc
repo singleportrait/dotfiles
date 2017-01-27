@@ -1,4 +1,4 @@
 alias l="ls -la"
 
 # Genius aliases
-alias rg="cd src/rapgenius/"
+alias rg="cd ~/src/rapgenius/"
