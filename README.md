@@ -22,6 +22,18 @@ source ~/.bashrc
 
 ### This comes with
 
-- Pathogen
+- vim-pathogen
+- vim-fugitive
+- ctrlp
 - Some aliases
 
+
+### Add new plugins with
+
+```sh
+cd ~/.vim
+git submodule init
+git submodule add git://github.com/tpope/vim-fugitive.git bundle/vim-fugitive
+git commit -m 'Added vim-fugitive'
+git push
+```
