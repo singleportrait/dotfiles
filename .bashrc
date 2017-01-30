@@ -17,5 +17,5 @@ alias rg='cd ~/src/rapgenius/'
 alias ss='cd ~/src/rapgenius/ && script/dev server'
 
 # Delete branches that are already merged with master
-# to tidy up old work
+# from http://stevenharman.net/git-clean-delete-already-merged-branches
 alias gbtidy='git branch --merged master | grep -v "\* master" | xargs -n 1 git branch -d'
