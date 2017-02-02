@@ -24,6 +24,7 @@ Install some programs:
 ```sh
 brew install macvim
 brew install bash-completion
+brew install the_silver_searcher
 ```
 
 
