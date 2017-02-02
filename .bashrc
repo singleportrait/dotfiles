@@ -10,6 +10,7 @@ alias gr='git rebase'
 alias gap='git add -p'
 alias gnap='git add -N . && git add -p'
 alias gd='git diff'
+alias gdc='git diff --cached'
 alias gb='git branch'
 
 # Genius aliases
