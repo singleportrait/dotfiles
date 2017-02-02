@@ -10,6 +10,9 @@ set guifont=Monaco:h15
 highlight ColorColumn ctermbg=gray
 set colorcolumn=80
 
+" Color scheme
+colorscheme hybrid
+
 " Ctrlp settings
 set wildignore+=*/tmp/*,*/cache/*,*.so,*.swp,*.zip,*.jpg,*.png,*.gif
 let g:ctrlp_use_caching = 0
