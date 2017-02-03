@@ -5,6 +5,8 @@ execute pathogen#infect()
 set relativenumber
 set tabstop=2 shiftwidth=2 expandtab
 set guifont=Monaco:h15
+syntax enable
+filetype plugin indent on
 
 " Show overflow limit at 80 characters
 highlight ColorColumn ctermbg=gray
