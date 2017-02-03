@@ -33,6 +33,7 @@ brew install the_silver_searcher
 - vim-pathogen
 - vim-fugitive
 - ctrlp
+- Some other vim plugins
 - Some aliases
 
 
