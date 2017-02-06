@@ -16,6 +16,7 @@ alias gb='git branch'
 # Genius aliases
 alias rg='cd ~/src/rapgenius/'
 alias ss='cd ~/src/rapgenius/ && script/dev server'
+alias sf='cd ~/src/rapgenius/ && script/dev server --forward'
 
 # Delete branches that are already merged with master
 # from http://stevenharman.net/git-clean-delete-already-merged-branches
