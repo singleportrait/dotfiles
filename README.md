@@ -3,7 +3,11 @@ My dotfiles.
 
 ### Install
 
-Clone this repo in your `~/` user folder
+Clone this repo in your `~/` user folder, recursively including submodules (VIM plugins):
+
+```sh
+git clone --recursive https://github.com/singleportrait/dotfiles
+```
 
 Create symlinks in your `~/` user folder, something along the lines of this:
 
@@ -18,6 +22,8 @@ Add this to your `~/.profile` file, so that your bash file's commands get read i
 ```sh
 source ~/.bashrc
 ```
+
+Install [Homebrew](https://brew.sh).
 
 Install some programs:
 
