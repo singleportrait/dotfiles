@@ -25,7 +25,7 @@ source ~/.bashrc
 
 Install [Homebrew](https://brew.sh).
 
-Install some programs:
+Then install some programs:
 
 ```sh
 brew install macvim
