@@ -52,3 +52,17 @@ git submodule add git://github.com/tpope/vim-fugitive.git bundle/vim-fugitive
 git commit -m 'Added vim-fugitive'
 git push
 ```
+
+### Optional
+
+If you want a global `.gitignore` file, you can create the symlink:
+
+```sh
+ln -s ~/dotfiles/.gitignore ~/.gitignore
+```
+
+And then:
+
+```sh
+git config --global core.excludesfile ~/.gitignore
+```
