@@ -1,0 +1,5 @@
+# Finder weirdos
+.DS_Store
+
+# Temporary files in VIM
+*.swp
