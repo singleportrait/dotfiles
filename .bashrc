@@ -28,3 +28,42 @@ alias gbtidy='git branch --merged master | grep -v "\* master" | xargs -n 1 git 
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
 fi
+
+# From oh-my-zsh; not perfect but pretty okay
+# https://github.com/robbyrussell/oh-my-zsh/blob/master/lib/git.zsh
+
+# Get the name of the branch we are on
+function git_prompt_info() {
+  if [[ “$(command git config —get oh-my-zsh.hide-status 2>/dev/null)” != “1” ]]; then
+    ref=$(command git symbolic-ref HEAD 2> /dev/null) || \
+      ref=$(command git rev-parse —short HEAD 2> /dev/null) || return 0
+    echo “${ref#refs/heads/}$(parse_git_dirty)”
+  fi
+}
+
+# Checks if working tree is dirty
+parse_git_dirty() {
+  local STATUS=''
+  local FLAGS
+  FLAGS=('--porcelain')
+  if [[ "$(command git config --get oh-my-zsh.hide-dirty)" != "1" ]]; then
+    if [[ $POST_1_7_2_GIT -gt 0 ]]; then
+      FLAGS+='--ignore-submodules=dirty'
+    fi
+    if [[ "$DISABLE_UNTRACKED_FILES_DIRTY" == "true" ]]; then
+      FLAGS+='--untracked-files=no'
+    fi
+    STATUS=$(command git status ${FLAGS} 2> /dev/null | tail -n1)
+  fi
+  if [[ -n $STATUS ]]; then
+    echo "$ZSH_THEME_GIT_PROMPT_DIRTY"
+  else
+    echo "$ZSH_THEME_GIT_PROMPT_CLEAN"
+  fi
+}
+
+# Customize bash prompt:
+# computer username with color, pwd with color, current git branch if applicable
+  # "\h" after "\u@" will show you the name of the computer
+  # "01;34" will change the colors of the prompts
+[ -z "$PS1" ] || export PS1="\[\033[01;34m\]\u@\[\033[00m\]:\[\033[00;33m\]    \w\[\033[00m\]  \$(git_prompt_info '(%s)')\n$ "

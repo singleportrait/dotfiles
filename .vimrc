@@ -5,7 +5,7 @@ execute pathogen#infect()
 set number
 set relativenumber
 set tabstop=2 shiftwidth=2 expandtab
-set guifont=Monaco:h15
+set guifont=Monaco:h14
 syntax enable
 filetype plugin indent on
 
