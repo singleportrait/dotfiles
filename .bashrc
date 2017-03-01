@@ -67,3 +67,6 @@ parse_git_dirty() {
   # "\h" after "\u@" will show you the name of the computer
   # "01;34" will change the colors of the prompts
 [ -z "$PS1" ] || export PS1="\[\033[01;34m\]\u@\[\033[00m\]:\[\033[00;33m\]    \w\[\033[00m\]  \$(git_prompt_info '(%s)')\n$ "
+
+# Set CLICOLOR to get Ansi Colors in iTerm2 (folder colors, etc.)
+export CLICOLOR=1
