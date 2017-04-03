@@ -24,3 +24,6 @@ let g:ctrlp_user_command = 'ag %s -l -i -g ""'
 " Use this to customize the mappings inside CtrlP's prompt to your liking. You
 " only need to keep the lines that you've changed the values (inside []): >
 let g:ctrlp_prompt_mappings = { 'AcceptSelection("e")': ['<C-e>'], 'AcceptSelection("t")': ['<cr>'] }
+
+" Open Ctrlp + :cw in a new tab
+:set switchbuf+=usetab,newtab
