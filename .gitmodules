@@ -25,3 +25,6 @@
 [submodule ".vim/bundle/vim-ragtag"]
 	path = .vim/bundle/vim-ragtag
 	url = git://github.com/tpope/vim-ragtag.git
+[submodule ".vim/bundle/better-indent-support-for-php-with-html"]
+	path = .vim/bundle/better-indent-support-for-php-with-html
+	url = git://github.com/captbaritone/better-indent-support-for-php-with-html
