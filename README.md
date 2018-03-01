@@ -13,6 +13,7 @@ Create symlinks in your `~/` user folder, something along the lines of this:
 
 ```sh
 ln -s ~/dotfiles/.bashrc ~/.bashrc
+ln -s ~/dotfiles/.bash_profile ~/.bash_profile
 ln -s ~/dotfiles/.vimrc ~/.vimrc
 ln -s ~/dotfiles/.vim/ ~/
 ```
