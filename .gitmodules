@@ -28,3 +28,6 @@
 [submodule ".vim/bundle/better-indent-support-for-php-with-html"]
 	path = .vim/bundle/better-indent-support-for-php-with-html
 	url = git://github.com/captbaritone/better-indent-support-for-php-with-html
+[submodule ".vim/bundle/editorconfig-vim"]
+  path = .vim/bundle/editorconfig-vim
+  url = git://github.com/editorconfig/editorconfig-vim
