@@ -27,3 +27,8 @@ let g:ctrlp_prompt_mappings = { 'AcceptSelection("e")': ['<C-e>'], 'AcceptSelect
 
 " Open Ctrlp + :cw in a new tab
 :set switchbuf+=usetab,newtab
+
+" Move swap files to a different directory
+" From: https://alvinalexander.com/linux-unix/vi-vim-swap-backup-tilde-temporary-files-directory-move
+set swapfile
+set dir=/private/tmp
