@@ -70,3 +70,6 @@ parse_git_dirty() {
 
 # Set CLICOLOR to get Ansi Colors in iTerm2 (folder colors, etc.)
 export CLICOLOR=1
+
+# Show more lines of history
+export HISTSIZE=2000
