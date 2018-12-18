@@ -7,9 +7,6 @@
 [submodule ".vim/bundle/vim-colorschemes"]
 	path = .vim/bundle/vim-colorschemes
 	url = https://github.com/flazz/vim-colorschemes.git
-[submodule ".vim/bundle/MatchTag"]
-	path = .vim/bundle/MatchTag
-	url = https://github.com/gregsexton/MatchTag.git
 [submodule ".vim/bundle/supertab"]
 	path = .vim/bundle/supertab
 	url = https://github.com/ervandew/supertab.git
