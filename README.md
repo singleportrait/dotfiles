@@ -35,12 +35,13 @@ brew install the_silver_searcher
 ```
 
 
-### This comes with
+### These dotfiles come with:
 
-- vim-pathogen
-- vim-fugitive
-- ctrlp
-- Some other vim plugins
+- Some vim plugins:
+  - vim-pathogen
+  - vim-fugitive
+  - ctrlp
+  - Some other ones
 - Some aliases
 
 
