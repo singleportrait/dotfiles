@@ -18,7 +18,7 @@ ln -s ~/dotfiles/.vimrc ~/.vimrc
 ln -s ~/dotfiles/.vim/ ~/
 ```
 
-Add this to your `~/.profile` file, so that your bash file's commands get read in terminal:
+Add this to your `~/.profile` file, if you have one, so that your bash file's commands get read in terminal:
 
 ```sh
 source ~/.bashrc
