@@ -18,7 +18,7 @@ ln -s ~/dotfiles/.vimrc ~/.vimrc
 ln -s ~/dotfiles/.vim/ ~/
 ```
 
-Add this to your `~/.profile` file, so that your bash file's commands get read in terminal:
+Add this to your `~/.profile` file, if you have one, so that your bash file's commands get read in terminal:
 
 ```sh
 source ~/.bashrc
@@ -35,12 +35,13 @@ brew install the_silver_searcher
 ```
 
 
-### This comes with
+### These dotfiles come with:
 
-- vim-pathogen
-- vim-fugitive
-- ctrlp
-- Some other vim plugins
+- Some vim plugins:
+  - vim-pathogen
+  - vim-fugitive
+  - ctrlp
+  - Some other ones
 - Some aliases
 
 
