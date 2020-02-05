@@ -34,6 +34,9 @@ brew install bash-completion
 brew install the_silver_searcher
 ```
 
+Then, restart your Terminal, and you should be all set.
+
+**Note**: There are a few lines in `.bash_profile` that were auto-added on my 2019 MBP in order to support MacPorts. This could potentially cause disruptions on future computers, and I'd imagine it can be commented out or removed on install.
 
 ### These dotfiles come with:
 
