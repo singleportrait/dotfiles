@@ -31,3 +31,6 @@
 [submodule ".vim/bundle/vim-jsx"]
 	path = .vim/bundle/vim-jsx
 	url = git://github.com/mxw/vim-jsx
+[submodule ".vim/bundle/vim-styled-components"]
+	path = .vim/bundle/vim-styled-components
+	url = git://github.com/styled-components/vim-styled-components.git
