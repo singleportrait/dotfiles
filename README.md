@@ -62,7 +62,7 @@ git push
 
 ### Removing plugins
 
-A little complicated, but I've done it following the instructions in [this Stack Overflow post](https://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule):
+A little complicated, but I've done it following the instructions in [this Stack Overflow post](https://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule) and this [instructional gist](https://gist.github.com/manasthakur/d4dc9a610884c60d944a4dd97f0b3560):
 - Delete the relevant section from the `.gitmodules` file.
 - Stage the `.gitmodules` changes `git add .gitmodules`
 - Delete the relevant section from `.git/config.`
