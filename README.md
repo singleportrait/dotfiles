@@ -62,7 +62,7 @@ git push
 
 ### Removing plugins
 
-A little complicated, but I've done it following the instructions in [this Stack Overflow post](https://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule) and this [instructional gist](https://gist.github.com/manasthakur/d4dc9a610884c60d944a4dd97f0b3560):
+A little complicated, but I've done it following the instructions in [this Stack Overflow post](https://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule):
 - Delete the relevant section from the `.gitmodules` file.
 - Stage the `.gitmodules` changes `git add .gitmodules`
 - Delete the relevant section from `.git/config.`
@@ -70,6 +70,17 @@ A little complicated, but I've done it following the instructions in [this Stack
 - Run `rm -rf .git/modules/path_to_submodule/`
 - Commit `git commit -m "Removed submodule <name>"`
 - Delete the now untracked submodule files `rm -rf path_to_submodule/`
+
+A slightly simpler version that seems to have the same effect, from this [instructional gist](https://gist.github.com/manasthakur/d4dc9a610884c60d944a4dd97f0b3560):
+
+```sh
+cd ~/.vim
+git submodule deinit bundle/vim-jsx/
+git rm -r bundle/vim-jsx
+rm -r ~/dotfiles/.git/modules/.vim/bundle/vim-jsx
+git commit -m "Removing deprecated vim-jsx"
+git push
+```
 
 ### Optional
 
