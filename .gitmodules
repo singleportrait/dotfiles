@@ -34,3 +34,6 @@
 [submodule ".vim/bundle/vim-jsx-pretty"]
 	path = .vim/bundle/vim-jsx-pretty
 	url = git://github.com/MaxMEllon/vim-jsx-pretty
+[submodule ".vim/bundle/vim-firestore"]
+	path = .vim/bundle/vim-firestore
+	url = git://github.com/delphinus/vim-firestore.git
