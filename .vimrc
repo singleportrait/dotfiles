@@ -25,6 +25,9 @@ let g:ctrlp_user_command = 'ag %s -l -i -g ""'
 " only need to keep the lines that you've changed the values (inside []): >
 let g:ctrlp_prompt_mappings = { 'AcceptSelection("e")': ['<C-e>'], 'AcceptSelection("t")': ['<cr>'] }
 
+" Ignore node modules and other files
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store'
+
 " Open Ctrlp + :cw in a new tab
 :set switchbuf+=usetab,newtab
 
