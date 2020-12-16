@@ -19,9 +19,10 @@ alias ss='cd ~/src/rapgenius/ && script/dev server'
 alias sf='cd ~/src/rapgenius/ && script/dev server --forward'
 alias sc='cd ~/src/rapgenius/ && script/dev console'
 
-# Delete branches that are already merged with master
+# Delete branches that are already merged with main/master
 # from http://stevenharman.net/git-clean-delete-already-merged-branches
-alias gbtidy='git branch --merged master | grep -v "\* master" | xargs -n 1 git branch -d'
+alias gbtidy='git branch --merged main | grep -v "\* main " | xargs -n 1 git branch -d'
+alias gbtidymaster='git branch --merged master | grep -v "\* master " | xargs -n 1 git branch -d'
 
 # Git completion
 # from https://github.com/bobthecow/git-flow-completion/wiki/Install-Bash-git-completion
