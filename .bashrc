@@ -80,3 +80,6 @@ export PATH="$(brew --prefix qt@5.5)/bin:$PATH"
 
 # Aidin: Made a copy of `soffice` in this file to `libreoffice`, and now need to export the path
 export PATH=$PATH:/Applications/LibreOffice.app/Contents/MacOS/
+
+# Genius: Not sure if I need this, but adding rbenv initialization just in case
+eval "$(rbenv init -)"
