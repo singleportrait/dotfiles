@@ -31,6 +31,10 @@ let g:ctrlp_custom_ignore = 'node_modules\|DS_Store'
 " Open Ctrlp + :cw in a new tab
 :set switchbuf+=usetab,newtab
 
+" Open new splits below (for horizontal) and to the right (for vertical)
+set splitright
+set splitbelow
+
 " Move swap files to a different directory
 " From: https://alvinalexander.com/linux-unix/vi-vim-swap-backup-tilde-temporary-files-directory-move
 set swapfile
