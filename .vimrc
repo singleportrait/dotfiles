@@ -39,3 +39,15 @@ set splitbelow
 " From: https://alvinalexander.com/linux-unix/vi-vim-swap-backup-tilde-temporary-files-directory-move
 set swapfile
 set dir=/private/tmp
+
+" Customize netrw to better explore files
+" From: https://shapeshed.com/vim-netrw/
+let g:netrw_browse_split = 2
+let g:netrw_winsize = 25
+let g:netrw_banner = 0
+" let g:netrw_liststyle = 3
+" let g:netrw_altv = 1
+" augroup ProjectDrawer
+"   autocmd!
+"   autocmd VimEnter * :Vexplore
+" augroup END
