@@ -16,10 +16,14 @@ set colorcolumn=80
 " Color scheme
 colorscheme hybrid
 
-" Ctrlp settings
+" Ctrlp settings --- "
+
+" Show hidden files
+let g:ctrlp_show_hidden = 1
+
 set wildignore+=*/tmp/*,*/cache/*,*.so,*.swp,*.zip,*.jpg,*.png,*.gif
 let g:ctrlp_use_caching = 0
-let g:ctrlp_user_command = 'ag %s -l -i -g ""'
+let g:ctrlp_user_command = 'ag %s -l --hidden -i -g ""'
 
 " Use this to customize the mappings inside CtrlP's prompt to your liking. You
 " only need to keep the lines that you've changed the values (inside []): >
@@ -30,6 +34,8 @@ let g:ctrlp_custom_ignore = 'node_modules\|DS_Store'
 
 " Open Ctrlp + :cw in a new tab
 :set switchbuf+=usetab,newtab
+
+" ------------------- "
 
 " Open new splits below (for horizontal) and to the right (for vertical)
 set splitright
