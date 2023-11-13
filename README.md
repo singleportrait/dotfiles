@@ -18,7 +18,9 @@ ln -s ~/dotfiles/.vimrc ~/.vimrc
 ln -s ~/dotfiles/.vim/ ~/
 ```
 
-Add this to your `~/.profile` file, if you have one, so that your bash file's commands get read in terminal:
+Add this to your `~/.profile` file, if you have one, so that your bash file's commands get read in terminal.
+
+Note: New Macs (post-2022 I believe) come with `zsh` as the default shell instead of `bash`. If you decide to use `zsh`, you can add this code to the `~/.zprofile` file instead of `~/.profile`
 
 ```sh
 source ~/.bashrc
