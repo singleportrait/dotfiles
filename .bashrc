@@ -26,9 +26,7 @@ alias gbtidymaster='git branch --merged master | grep -v "\* master " | xargs -n
 
 # Git completion
 # from https://github.com/bobthecow/git-flow-completion/wiki/Install-Bash-git-completion
-if [ -f $(brew --prefix)/etc/bash_completion ]; then
-  . $(brew --prefix)/etc/bash_completion
-fi
+[[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
 
 # From oh-my-zsh; not perfect but pretty okay
 # https://github.com/robbyrussell/oh-my-zsh/blob/master/lib/git.zsh
