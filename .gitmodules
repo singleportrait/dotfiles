@@ -12,34 +12,34 @@
 	url = https://github.com/ervandew/supertab.git
 [submodule ".vim/bundle/vim-commentary"]
 	path = .vim/bundle/vim-commentary
-	url = git://github.com/tpope/vim-commentary.git
+	url = https://github.com/tpope/vim-commentary.git
 [submodule ".vim/bundle/vim-javascript"]
 	path = .vim/bundle/vim-javascript
-	url = git://github.com/pangloss/vim-javascript
+	url = https://github.com/pangloss/vim-javascript
 [submodule ".vim/bundle/typescript-vim"]
 	path = .vim/bundle/typescript-vim
-	url = git://github.com/leafgarland/typescript-vim
+	url = https://github.com/leafgarland/typescript-vim
 [submodule ".vim/bundle/vim-ragtag"]
 	path = .vim/bundle/vim-ragtag
-	url = git://github.com/tpope/vim-ragtag.git
+	url = https://github.com/tpope/vim-ragtag.git
 [submodule ".vim/bundle/better-indent-support-for-php-with-html"]
 	path = .vim/bundle/better-indent-support-for-php-with-html
-	url = git://github.com/captbaritone/better-indent-support-for-php-with-html
+	url = https://github.com/captbaritone/better-indent-support-for-php-with-html
 [submodule ".vim/bundle/editorconfig-vim"]
   path = .vim/bundle/editorconfig-vim
-  url = git://github.com/editorconfig/editorconfig-vim
+  url = https://github.com/editorconfig/editorconfig-vim
 [submodule ".vim/bundle/vim-styled-components"]
 	path = .vim/bundle/vim-styled-components
-	url = git://github.com/styled-components/vim-styled-components.git
+	url = https://github.com/styled-components/vim-styled-components.git
 [submodule ".vim/bundle/vim-jsx-pretty"]
 	path = .vim/bundle/vim-jsx-pretty
-	url = git://github.com/MaxMEllon/vim-jsx-pretty
+	url = https://github.com/MaxMEllon/vim-jsx-pretty
 [submodule ".vim/bundle/vim-firestore"]
 	path = .vim/bundle/vim-firestore
-	url = git://github.com/delphinus/vim-firestore.git
+	url = https://github.com/delphinus/vim-firestore.git
 [submodule ".vim/bundle/vim-jinja"]
 	path = .vim/bundle/vim-jinja
 	url = https://github.com/lepture/vim-jinja.git
 [submodule ".vim/bundle/greplace"]
 	path = .vim/bundle/greplace
-	url = git://github.com/vim-scripts/greplace.vim.git
+	url = https://github.com/vim-scripts/greplace.vim.git
