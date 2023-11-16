@@ -18,6 +18,12 @@ ln -s ~/dotfiles/.vimrc ~/.vimrc
 ln -s ~/dotfiles/.vim/ ~/
 ```
 
+If you're using ZSH (as comes by default on newer Macs):
+
+```sh
+ln -s ~/dotfiles/.zshrc ~/.zshrc
+```
+
 Add this to your `~/.profile` file, if you have one, so that your bash file's commands get read in terminal.
 
 Note: New Macs (post-2022 I believe) come with `zsh` as the default shell instead of `bash`. If you decide to use `zsh`, you can add this code to the `~/.zprofile` file instead of `~/.profile`
